@@ -1,0 +1,5 @@
+Dart is many times faster than Python.
+But it has a limit upto 19 digits (all '9')
+But because the limitations have already been discovered, It was just a speed test. 
+
+And dart is the winner
