@@ -5,7 +5,7 @@ void main() {
   /*
     WORKING of Contine:
     > Unlike 'break' it does not terminate the loop or the switch;
-    > In a loop it just terminates the current iteration. 
+    > In a loop it just terminates the current iteration, and reruns the loop.
     > In a switch it does not break out of the switch, 
       but also runs other cases statement, But we need to define a name,
       for the other case.
