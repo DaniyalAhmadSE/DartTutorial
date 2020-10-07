@@ -5,7 +5,8 @@ void main() {
   // Used for getting out of blocks. i.e.'{}'
   /*
     Uses of Break:
-    > In switches it is compulsory to use breaks to get out of a case block.
+    > In switches it is compulsory to use 'break',
+      to get out of it, when a case is true.
     > In loops to break out of certain situations.
   */
 
