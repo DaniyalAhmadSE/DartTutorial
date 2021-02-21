@@ -25,16 +25,30 @@ class Point {
   */
 
   // Short Method to do the above process.
-  Point(this.x, this.y);
+  // Point(this.x, this.y);
 
   /* 
   To have more than one constructors in a class we have to create a 
   named constructor, So we have to give a separate name to it after the 
   name of the class.
   */
+  /*
   Point.from_map(Map<String, int> my_map) {
     this.x = my_map['x'];
     this.y = my_map['y'];
+  }
+  */
+  // A better way to do the same is called Initialiaazer list
+  /*
+  Point.from_map(Map<String, int> my_map)
+      : x = my_map['x'],
+        y = my_map['y'] {
+    print_data();
+  }
+  */
+  // It can be also used for other cases.
+  Point(this.x, this.y) : assert(x > 0) {
+    print_data();
   }
 
   /* 
@@ -56,7 +70,9 @@ void main() {
   print(p1.y);
   p1.print_data();
 
+  /*
   Point p2;
   p2 = Point.from_map({'x': 10, 'y': 20});
   print(p2);
+  */
 }

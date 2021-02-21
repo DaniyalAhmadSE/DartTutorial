@@ -39,6 +39,6 @@ void main() {
   /*
   'For Each' can be used with both lists and maps but, 
   Map items can have properties, While list items cannot have properties.
-  Map item's properties can also be accessed from For in loop.  
+  Map item's properties can also be accessed from For Each loop.  
   */
 }
